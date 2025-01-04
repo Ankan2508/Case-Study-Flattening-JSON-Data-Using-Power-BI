@@ -1,0 +1,16 @@
+﻿Transaction ID,Date,Customer Name,Email,Phone,Amount,Payment Mode,Status
+T1001,2025-01-01 00:00:00,Rajesh Kumar,rajesh.kumar@gmail.com,9876543210,1500,UPI,Completed
+T1002,2025-01-01 00:00:00,Priya Sharma,priya.sharma@hotmail.com,9865321470,2500,Credit Card,Pending
+T1003,2025-01-01 00:00:00,Ankit Mehta,ankit.mehta@yahoo.com,9543218760,1200,Net Banking,Completed
+T1004,2025-01-02 00:00:00,Sneha Gupta,sneha.gupta@gmail.com,9123456789,1800,UPI,Failed
+T1005,2025-01-02 00:00:00,Vikram Singh,vikram.singh@gmail.com,8987654321,3000,Cash,Completed
+T1006,2025-01-03 00:00:00,Pooja Verma,pooja.verma@yahoo.com,9356124780,2200,Credit Card,Completed
+T1007,2025-01-03 00:00:00,Karan Patel,karan.patel@hotmail.com,9987456321,4500,UPI,Completed
+T1008,2025-01-03 00:00:00,Neha Agarwal,neha.agarwal@gmail.com,9445678123,1300,Net Banking,Pending
+T1009,2025-01-04 00:00:00,Amitabh Mishra,amitabh.mishra@hotmail.com,9223344556,2700,UPI,Completed
+T1010,2025-01-04 00:00:00,Simran Kaur,simran.kaur@gmail.com,9678543210,3200,Credit Card,Failed
+T1011,2025-01-05 00:00:00,Abhinav Joshi,abhinav.joshi@yahoo.com,9876541230,1600,Net Banking,Completed
+T1012,2025-01-05 00:00:00,Ritika Desai,ritika.desai@gmail.com,9354712360,2000,Cash,Completed
+T1013,2025-01-06 00:00:00,Arjun Nair,arjun.nair@hotmail.com,9321456780,2800,UPI,Pending
+T1014,2025-01-06 00:00:00,Divya Iyer,divya.iyer@gmail.com,9568745123,1700,Credit Card,Completed
+T1015,2025-01-06 00:00:00,Manish Malhotra,manish.malhotra@yahoo.com,9245678901,1400,Net Banking,Completed

@@ -1,0 +1,182 @@
+[
+  {
+    "transaction_id": "T1001",
+    "date": "2025-01-01",
+    "customer": {
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@gmail.com",
+      "phone": "+91-9876543210"
+    },
+    "amount": 1500.00,
+    "payment_mode": "UPI",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1002",
+    "date": "2025-01-01",
+    "customer": {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@hotmail.com",
+      "phone": "+91-9865321470"
+    },
+    "amount": 2500.00,
+    "payment_mode": "Credit Card",
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "T1003",
+    "date": "2025-01-01",
+    "customer": {
+      "name": "Ankit Mehta",
+      "email": "ankit.mehta@yahoo.com",
+      "phone": "+91-9543218760"
+    },
+    "amount": 1200.00,
+    "payment_mode": "Net Banking",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1004",
+    "date": "2025-01-02",
+    "customer": {
+      "name": "Sneha Gupta",
+      "email": "sneha.gupta@gmail.com",
+      "phone": "+91-9123456789"
+    },
+    "amount": 1800.00,
+    "payment_mode": "UPI",
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "T1005",
+    "date": "2025-01-02",
+    "customer": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@gmail.com",
+      "phone": "+91-8987654321"
+    },
+    "amount": 3000.00,
+    "payment_mode": "Cash",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1006",
+    "date": "2025-01-03",
+    "customer": {
+      "name": "Pooja Verma",
+      "email": "pooja.verma@yahoo.com",
+      "phone": "+91-9356124780"
+    },
+    "amount": 2200.00,
+    "payment_mode": "Credit Card",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1007",
+    "date": "2025-01-03",
+    "customer": {
+      "name": "Karan Patel",
+      "email": "karan.patel@hotmail.com",
+      "phone": "+91-9987456321"
+    },
+    "amount": 4500.00,
+    "payment_mode": "UPI",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1008",
+    "date": "2025-01-03",
+    "customer": {
+      "name": "Neha Agarwal",
+      "email": "neha.agarwal@gmail.com",
+      "phone": "+91-9445678123"
+    },
+    "amount": 1300.00,
+    "payment_mode": "Net Banking",
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "T1009",
+    "date": "2025-01-04",
+    "customer": {
+      "name": "Amitabh Mishra",
+      "email": "amitabh.mishra@hotmail.com",
+      "phone": "+91-9223344556"
+    },
+    "amount": 2700.00,
+    "payment_mode": "UPI",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1010",
+    "date": "2025-01-04",
+    "customer": {
+      "name": "Simran Kaur",
+      "email": "simran.kaur@gmail.com",
+      "phone": "+91-9678543210"
+    },
+    "amount": 3200.00,
+    "payment_mode": "Credit Card",
+    "status": "Failed"
+  },
+  {
+    "transaction_id": "T1011",
+    "date": "2025-01-05",
+    "customer": {
+      "name": "Abhinav Joshi",
+      "email": "abhinav.joshi@yahoo.com",
+      "phone": "+91-9876541230"
+    },
+    "amount": 1600.00,
+    "payment_mode": "Net Banking",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1012",
+    "date": "2025-01-05",
+    "customer": {
+      "name": "Ritika Desai",
+      "email": "ritika.desai@gmail.com",
+      "phone": "+91-9354712360"
+    },
+    "amount": 2000.00,
+    "payment_mode": "Cash",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1013",
+    "date": "2025-01-06",
+    "customer": {
+      "name": "Arjun Nair",
+      "email": "arjun.nair@hotmail.com",
+      "phone": "+91-9321456780"
+    },
+    "amount": 2800.00,
+    "payment_mode": "UPI",
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "T1014",
+    "date": "2025-01-06",
+    "customer": {
+      "name": "Divya Iyer",
+      "email": "divya.iyer@gmail.com",
+      "phone": "+91-9568745123"
+    },
+    "amount": 1700.00,
+    "payment_mode": "Credit Card",
+    "status": "Completed"
+  },
+  {
+    "transaction_id": "T1015",
+    "date": "2025-01-06",
+    "customer": {
+      "name": "Manish Malhotra",
+      "email": "manish.malhotra@yahoo.com",
+      "phone": "+91-9245678901"
+    },
+    "amount": 1400.00,
+    "payment_mode": "Net Banking",
+    "status": "Completed"
+  }
+]

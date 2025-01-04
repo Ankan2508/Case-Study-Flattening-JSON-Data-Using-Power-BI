@@ -1,0 +1,10 @@
+let
+    Source = Json.Document(File.Contents("C:\Users\ankan\Downloads\[.json")),
+    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"transaction_id", "date", "customer", "amount", "payment_mode", "status"}, {"transaction_id", "date", "customer", "amount", "payment_mode", "status"}),
+    #"Expanded customer" = Table.ExpandRecordColumn(#"Expanded Column1", "customer", {"name", "email", "phone"}, {"customer.name", "customer.email", "customer.phone"}),
+    #"Changed Type" = Table.TransformColumnTypes(#"Expanded customer",{{"transaction_id", type text}, {"date", type date}, {"customer.name", type text}, {"customer.email", type text}, {"customer.phone", type text}, {"amount", Int64.Type}, {"payment_mode", type text}, {"status", type text}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"transaction_id", "Transaction ID"}, {"date", "Date"}, {"customer.name", "Customer Name"}, {"customer.email", "Email"}, {"customer.phone", "Phone"}, {"amount", "Amount"}, {"payment_mode", "Payment Mode"}, {"status", "Status"}}),
+    #"Extracted Text After Delimiter" = Table.TransformColumns(#"Renamed Columns", {{"Phone", each Text.AfterDelimiter(_, "-"), type text}})
+in
+    #"Extracted Text After Delimiter"
